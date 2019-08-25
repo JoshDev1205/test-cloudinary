@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/JoshDev1205/test-cloudinary/issues"
   },
-  "homepage": "https://github.com/JoshDev1205/test-cloudinary#readme"
+  "homepage": "https://github.com/JoshDev1205/test-cloudinary#readme",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "ts-node": "^8.3.0"
+  }
 }
